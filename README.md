@@ -1,36 +1,81 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<!-- @format -->
 
-## Getting Started
+# 🌟 Zain Ashraf - Portfolio Website
 
-First, run the development server:
+Welcome to my personal portfolio! This website showcases my skills, projects, and experiences as a **Full-Stack Developer**. Built with modern technologies for a seamless and stunning UI/UX. 🚀
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+## 🛠 Tech Stack
+
+- **Framework:** [Next.js 15](https://nextjs.org/) ⚡
+- **Styling:** [Tailwind CSS v4](https://tailwindcss.com/) 🎨
+- **UI Components:** [Aceternity UI](https://aceternity.com/) 💎
+- **Animations:** [Framer Motion](https://www.motion.dev) 🎬
+- **Language:** [TypeScript](https://www.typescriptlang.org/) 🦕
+- **Hosting:** [Vercel](https://vercel.com/) 🌍
+
+## 📸 Preview
+
+![Portfolio Preview](https://your-image-url.com/preview.png) _(Replace with actual preview image)_
+
+## 🚀 Features
+
+✅ **Fully Responsive** – Optimized for all screen sizes 🌍  
+✅ **Lightning Fast** – Thanks to Next.js 15 and optimized performance ⚡  
+✅ **Modern UI** – Elegant design powered by Aceternity UI ✨  
+✅ **Smooth Animations** – Stunning motion effects using Framer Motion 🎥  
+✅ **Dark Mode Support** – Because aesthetics matter 🌙  
+✅ **SEO Optimized** – Ranks better in search engines 🔍  
+✅ **Contact Form** – Reach out directly via email 📧
+
+## 📂 Project Structure
+
+```
+📦 my-portfolio
+├── 📁 public          # Static assets (images, favicons, etc.)
+├── 📁 src
+│   ├── 📁 components  # Reusable UI components
+│   ├── 📁 app       # Next.js routes (index.tsx, about.tsx, etc.)
+│   ├── 📁 styles      # Global styles
+│   ├── 📁 utils       # Utility functions
+│   ├── 📁 hooks       # Custom React hooks
+│   ├── 📁 animations  # Framer Motion animation variants
+│   └── 📁 data        # JSON data (projects, experiences, etc.)
+└── 📝 README.md       # You are here! 😃
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔧 Installation & Running Locally
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Clone the repository and install dependencies:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```sh
+git clone https://github.com/yourusername/your-portfolio.git
+cd your-portfolio
+pnpm install  # or npm install / yarn install
+```
 
-## Learn More
+Start the development server:
 
-To learn more about Next.js, take a look at the following resources:
+```sh
+pnpm dev  # or npm run dev / yarn dev
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Open **http://localhost:3000/** in your browser to see the magic! ✨
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🚀 Deployment
 
-## Deploy on Vercel
+Easily deploy on **Vercel**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```sh
+pnpm build
+vercel deploy
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 📬 Connect With Me
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/zainashraf005)  
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/zainashraf005)  
+[![Twitter](https://img.shields.io/badge/Twitter-%231DA1F2.svg?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/zainashraf005)
+
+---
+
+📌 **Feel free to fork, star ⭐, and contribute!** Let's build something awesome together! 💡
