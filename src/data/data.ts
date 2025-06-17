@@ -264,6 +264,19 @@ export const qualification = [
 export const myCertifications = [
   {
     id: "1",
+    title: "Data Science & Analytics",
+    issuer: "HP Life",
+    date: "17-06-2025", // date-format is DD-MM-YYYY
+    image: "/assets/hp.png",
+    verificationUrl: "https://www.life-global.org/certificate/df5b125f-9e32-4c10-b617-e0be37b23f1b",
+    skills: ["Data Science", "Data Analytics"],
+    category: "cloud",
+    status: "active",
+    description:
+      "Conceptual information about data science and analytics.",
+  },
+  {
+    id: "2",
     title: "Coding Foundations",
     issuer: "Sololearn",
     date: "23-05-2025", // date-format is DD-MM-YYYY
@@ -276,7 +289,7 @@ export const myCertifications = [
       "Validates expertise in programming fundamentals, OOP, HTML, and SQL.",
   },
   {
-    id: "2",
+    id: "3",
     title: "Web Development Certification",
     issuer: "Sololearn",
     date: "20-11-2023",
@@ -289,7 +302,7 @@ export const myCertifications = [
       "Demonstrates proficiency in building modern React applications.",
   },
   {
-    id: "3",
+    id: "4",
     title: "Introduction to MERN Stack",
     issuer: "Simplilearn",
     date: "26-09-2024",
@@ -302,7 +315,7 @@ export const myCertifications = [
       "Validates experties in making web applications using MERN stack.",
   },
   {
-    id: "4",
+    id: "5",
     title: "Python Developer",
     issuer: "Sololearn",
     date: "31-08-2024",
