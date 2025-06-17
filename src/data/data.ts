@@ -281,7 +281,7 @@ export const myCertifications = [
     issuer: "Sololearn",
     date: "23-05-2025", // date-format is DD-MM-YYYY
     image: "/assets/sololearn.png",
-    verificationUrl: "https://aws.amazon.com/verification",
+    verificationUrl: "https://www.sololearn.com/certificates/CC-AJAI4EMK",
     skills: ["programming fundamentals", "OOP", "HTML", "SQL"],
     category: "cloud",
     status: "active",
