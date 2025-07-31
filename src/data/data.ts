@@ -239,9 +239,9 @@ export const projects = [
 
 export const experience = [
   {
-    company: "Fiverr",
-    title: "Freelance Web Developer",
-    date: "2021 - Present",
+    company: "Tech Titan Technologies",
+    title: "Junior Software Engineer - Intern",
+    date: "July 2025 - Present",
   },
   {
     company: "Developers Hub",
