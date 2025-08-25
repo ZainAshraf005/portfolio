@@ -50,7 +50,21 @@ export const stacks = [
     image: "/assets/svg/redux.svg",
     theory:
       "A predictable state container for JavaScript apps. I use Redux to manage global application state efficiently, especially in larger React applications.",
-  },
+  },{
+  name: "Zustand",
+  description: "Lightweight State Management",
+  image: "/assets/svg/zustand.svg",
+  theory:
+    "Zustand is a small, fast, and flexible state management library for React. Unlike Redux, it has minimal boilerplate and provides a simple API to manage both global and local state with ease.",
+},
+{
+  name: "TanStack Query",
+  description: "Server State Management",
+  image: "/assets/svg/tanstack.svg",
+  theory:
+    "TanStack Query (React Query) focuses on managing server state such as data fetching, caching, synchronizing, and updating data in React applications. It simplifies handling API calls and keeps UI in sync with backend data.",
+},
+
   {
     name: "MongoDB",
     description: "NoSQL Database",
