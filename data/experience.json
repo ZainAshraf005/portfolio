@@ -1,0 +1,24 @@
+[
+  {
+    "id": "sakai-technologies",
+    "company": "SAKAI Technologies",
+    "role": "Senior Software Engineer",
+    "startDate": "2022-01",
+    "endDate": null,
+    "location": "Remote",
+    "impactPoints": [
+      "Built and deployed 2 production products from scratch",
+      "Architected scalable full-stack systems handling real operational workflows",
+      "Established clean code practices and maintainable architecture patterns",
+      "Led technical decisions on database schemas and deployment pipelines"
+    ],
+    "technologies": [
+      "React",
+      "Next.js",
+      "Node.js",
+      "PostgreSQL",
+      "Docker",
+      "AWS"
+    ]
+  }
+]

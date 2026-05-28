@@ -1,0 +1,14 @@
+[
+  { "text": "React" },
+  { "text": "Next.js" },
+  { "text": "Node.js" },
+  { "text": "Python" },
+  { "text": "FastAPI" },
+  { "text": "C# .NET" },
+  { "text": "PostgreSQL" },
+  { "text": "MongoDB" },
+  { "text": "Docker" },
+  { "text": "AWS" },
+  { "text": "REST APIs" },
+  { "text": "CI/CD" }
+]

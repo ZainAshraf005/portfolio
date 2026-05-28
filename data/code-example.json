@@ -1,0 +1,7 @@
+{
+  "filename": "userService.ts",
+  "badCode": "const d = await db.q(\"SELECT * FROM u\")",
+  "goodCode": "const user = await userRepo.findById(userId)",
+  "badComment": "// ✗ not this",
+  "goodComment": "// ✓ this"
+}

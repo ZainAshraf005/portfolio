@@ -17,7 +17,7 @@ A modern, responsive portfolio website built with cutting-edge technologies to s
 ## 🛠️ Tech Stack
 
 ### Frontend
-- **[Next.js 15](https://nextjs.org/)** - React framework with App Router
+- **[Next.js 16](https://nextjs.org/)** - React framework with App Router
 - **[TypeScript](https://www.typescriptlang.org/)** - Type-safe JavaScript
 - **[Tailwind CSS](https://tailwindcss.com/)** - Utility-first CSS framework
 - **[Framer Motion](https://www.framer.com/motion/)** - Production-ready motion library
@@ -28,81 +28,6 @@ A modern, responsive portfolio website built with cutting-edge technologies to s
 - **[Husky](https://typicode.github.io/husky/)** - Git hooks
 - **[Vercel](https://vercel.com/)** - Deployment platform
 
-## 📁 Project Structure
-
-```
-portfolio-website/
-├── src/                   # Source code directory
-│   ├── app/              # Next.js App Router
-│   │   ├── contact/        # Contact page
-│   │   ├── certifications/ # Certifications showcase
-│   │   ├── projects/       # Projects portfolio
-│   │   ├── about/          # About page
-│   │   ├── globals.css     # Global styles
-│   │   ├── layout.tsx      # Root layout
-│   │   └── page.tsx        # Home page
-│   ├── components/       # Reusable components
-│   │   ├── ui/             # UI components (shadcn/ui)
-│   │   ├── layout/         # Layout components
-│   │   └── sections/       # Page sections
-│   └── data/            # Static data and content
-│       ├── data.ts         # Data
-│
-├── public/              # Static assets
-│   ├── images/         # Image assets
-│   ├── icons/          # Icon files
-│   └── documents/      # PDF files, resume, etc.
-├── lib/                # Utility functions
-├── hooks/              # Custom React hooks
-├── types/              # TypeScript type definitions
-├── tailwind.config.ts  # Tailwind configuration
-├── next.config.mjs     # Next.js configuration
-└── package.json        # Dependencies and scripts
-```
-
-## 📊 Data Structure
-
-The website uses a centralized data approach with TypeScript interfaces:
-
-### Projects Data (`src/data/projects.ts`)
-```typescript
-export interface Project {
-  id: string
-  title: string
-  description: string
-  technologies: string[]
-  liveUrl?: string
-  githubUrl?: string
-  image: string
-  featured: boolean
-}
-```
-
-### Certifications Data (`src/data/certifications.ts`)
-```typescript
-export interface Certification {
-  id: string
-  title: string
-  issuer: string
-  date: string
-  expiryDate?: string
-  verificationUrl?: string
-  skills: string[]
-  category: string
-}
-```
-
-### Skills Data (`src/data/skills.ts`)
-```typescript
-export interface Skill {
-  name: string
-  category: 'frontend' | 'backend' | 'tools' | 'design'
-  proficiency: number
-  icon?: string
-}
-```
-
-This structure makes it easy to update content without modifying components.
 
 ## 🚀 Getting Started
 
@@ -175,21 +100,6 @@ This structure makes it easy to update content without modifying components.
 
 ## 🎨 Customization
 
-### Colors
-The website uses a carefully crafted color palette defined in `tailwind.config.ts`:
-
-```typescript
-colors: {
-  primary: {
-    50: '#fffbeb',
-    // ... color scale
-    900: '#78350f',
-  },
-  accent: {
-    400: '#facc15', // Yellow accent
-  }
-}
-```
 
 ### Typography
 Typography system is built with Tailwind CSS using:
@@ -286,5 +196,5 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
   <p>Built with ❤️ and ☕</p>
-  <p>© 2025 M Zain Ashraf. All rights reserved.</p>
+  <p>© 2026 M Zain Ashraf. All rights reserved.</p>
 </div>

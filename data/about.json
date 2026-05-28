@@ -1,0 +1,17 @@
+{
+  "tagline": "Building interfaces that feel effortless",
+  "shortIntro": "Full stack engineer at SAKAI Technologies. I don't copy-paste Stack Overflow and ship. I write clean, intentional code — systems that are a pleasure to maintain, not a nightmare to inherit.",
+  "longBio": "With over 2 years of experience building production software, I've learned that anyone can make code work. The real craft is making it clean enough to last. I specialize in full-stack development, from database schemas to deployment pipelines, taking full ownership of every project I touch.",
+  "highlights": [
+    "clean architecture",
+    "no spaghetti code",
+    "readable by humans",
+    "maintainable by default"
+  ],
+  "focusAreas": [
+    "Full Stack Development",
+    "Systems Design",
+    "Clean Code Architecture",
+    "Production Deployments"
+  ]
+}

@@ -1,0 +1,184 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+/* ============================================
+   Portfolio Design Tokens
+   Matching the original HTML design
+   ============================================ */
+
+:root {
+  /* Background hierarchy */
+  --background: #080808;
+  --surface-1: #0f0f0f;
+  --surface-2: #161616;
+  --surface-3: #1e1e1e;
+  
+  /* Border hierarchy */
+  --border-1: #242424;
+  --border-2: #333333;
+  
+  /* Text hierarchy */
+  --foreground: #f0ede8;
+  --muted: #6b6860;
+  --dim: #3a3835;
+  
+  /* Accent colors */
+  --accent: #e8ff47;
+  --accent-2: #ff6b35;
+  --accent-foreground: #080808;
+  
+  /* Semantic colors */
+  --green: #7ec87e;
+  --blue: #7eb8e8;
+  --yellow: #e8ff47;
+  --orange: #ff6b35;
+  
+  /* Component tokens (shadcn compatibility) */
+  --card: var(--surface-1);
+  --card-foreground: var(--foreground);
+  --popover: var(--surface-1);
+  --popover-foreground: var(--foreground);
+  --primary: var(--accent);
+  --primary-foreground: var(--accent-foreground);
+  --secondary: var(--surface-2);
+  --secondary-foreground: var(--foreground);
+  --destructive: #ff4444;
+  --destructive-foreground: var(--foreground);
+  --input: var(--border-1);
+  --ring: var(--accent);
+  --border: var(--border-1);
+  
+  --radius: 0.5rem;
+}
+
+@theme inline {
+  --font-sans: var(--font-inter), 'Space Grotesk', system-ui, sans-serif;
+  --font-serif: var(--font-playfair), 'Instrument Serif', Georgia, serif;
+  --font-mono: var(--font-jetbrains), 'JetBrains Mono', monospace;
+  
+  /* Color mappings */
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-surface-1: var(--surface-1);
+  --color-surface-2: var(--surface-2);
+  --color-surface-3: var(--surface-3);
+  --color-border-1: var(--border-1);
+  --color-border-2: var(--border-2);
+  --color-muted: var(--muted);
+  --color-dim: var(--dim);
+  --color-accent: var(--accent);
+  --color-accent-2: var(--accent-2);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-green: var(--green);
+  --color-blue: var(--blue);
+  --color-yellow: var(--yellow);
+  --color-orange: var(--orange);
+  
+  /* shadcn compatible tokens */
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-background text-foreground antialiased;
+    overflow-x: hidden;
+  }
+}
+
+/* ============================================
+   Marquee Animation - CSS only, seamless loop
+   ============================================ */
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  display: flex;
+  animation: marquee 25s linear infinite;
+  will-change: transform;
+}
+
+/* ============================================
+   Glow animation for availability dot
+   ============================================ */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 4px #5bc85b;
+  }
+  50% {
+    box-shadow: 0 0 10px #5bc85b;
+  }
+}
+
+.animate-glow {
+  animation: glow 2s infinite;
+}
+
+/* ============================================
+   Text outline style for "work."
+   ============================================ */
+.text-outline {
+  -webkit-text-stroke: 1px rgba(240, 237, 232, 0.2);
+  color: transparent;
+}
+
+/* ============================================
+   Selection
+   ============================================ */
+::selection {
+  background-color: var(--accent);
+  color: var(--accent-foreground);
+}
+
+/* ============================================
+   Scrollbar
+   ============================================ */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--background);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--border-2);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--muted);
+}

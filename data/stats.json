@@ -1,0 +1,11 @@
+{
+  "yearsExperience": "2+",
+  "productsInProduction": 12,
+  "technologiesMastered": "8+",
+  "codeQualities": [
+    "clean architecture",
+    "no spaghetti code",
+    "readable by humans",
+    "maintainable by default"
+  ]
+}

@@ -1,0 +1,20 @@
+[
+  {
+    "category": "Frontend & Frameworks",
+    "items": [
+      { "name": "React / Next.js", "years": 3, "proficiency": 92 },
+      { "name": "Node.js", "years": 3, "proficiency": 88 },
+      { "name": "TypeScript", "years": 2, "proficiency": 80 },
+      { "name": "Python / FastAPI", "years": 2, "proficiency": 75 }
+    ]
+  },
+  {
+    "category": "Backend, Cloud & Infra",
+    "items": [
+      { "name": "C# / .NET", "years": 2, "proficiency": 82 },
+      { "name": "PostgreSQL", "years": 3, "proficiency": 88 },
+      { "name": "AWS", "years": 2, "proficiency": 70 },
+      { "name": "Docker / CI-CD", "years": 2, "proficiency": 78 }
+    ]
+  }
+]

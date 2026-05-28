@@ -1,0 +1,15 @@
+{
+  "name": "M Zain Ashraf",
+  "title": "Senior Software Engineer",
+  "company": "SAKAI Technologies",
+  "tagline": "Senior Software Engineer — 2+ Years",
+  "location": "Pakistan",
+  "availability": "available",
+  "image": "/profile.jpg",
+  "logoMark": "MZ",
+  "social": {
+    "github": "https://github.com/mzainashraf",
+    "linkedin": "https://linkedin.com/in/mzainashraf",
+    "email": "zain@example.com"
+  }
+}

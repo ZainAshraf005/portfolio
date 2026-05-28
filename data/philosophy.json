@@ -1,0 +1,39 @@
+[
+  {
+    "id": "philosophy",
+    "tag": "Philosophy",
+    "headline": "Code is read",
+    "headlineEmphasis": "far more than it's written.",
+    "body": "Every function I write, I ask: will the next engineer hate me for this? Clean naming, logical structure, no clever hacks that turn into tomorrow's bugs.",
+    "bodyEmphasis": "will the next engineer hate me for this?",
+    "isDark": false
+  },
+  {
+    "id": "approach",
+    "tag": "Approach",
+    "headline": "Ship fast.",
+    "headlineEmphasis": "Not broken.",
+    "body": "Speed and quality aren't opposites. With the right architecture upfront, you move faster in month 6 than month 1. That's the difference between a codebase and a liability.",
+    "bodyEmphasis": "you move faster in month 6 than month 1.",
+    "hasCodeBlock": true,
+    "isDark": true
+  },
+  {
+    "id": "mindset",
+    "tag": "Mindset",
+    "headline": "Full stack means",
+    "headlineEmphasis": "full ownership.",
+    "body": "I don't throw code over the fence. From DB schema to deployment pipeline, I own the outcome — not just my slice of the ticket.",
+    "bodyEmphasis": "I own the outcome",
+    "isDark": true
+  },
+  {
+    "id": "stack",
+    "tag": "Stack",
+    "headline": "Right tool.",
+    "headlineEmphasis": "Right job.",
+    "body": "Not everything needs microservices. Not everything needs a monolith. Experience teaches you when to reach for what — and when to keep it simple.",
+    "bodyEmphasis": "Experience teaches you when to reach for what",
+    "isDark": false
+  }
+]

@@ -1,0 +1,46 @@
+[
+  {
+    "id": "hrx-ai-official",
+    "title": "HRx AI",
+    "description": "AI powered Recruitment System — beta HRMS, resume parsing, candidates ranking. Built from scratch, deployed in production. Not a CRUD toy — a real operational tool people depend on daily.",
+    "techStack": ["Next.js", "FastAPI", "Full Stack", "Production"],
+    "liveUrl": null,
+    "githubUrl": null,
+    "image": "/projects/hrx-ai.png",
+    "featured": true,
+    "category": "production",
+    "year":"2026",
+    "highlights": [
+      "Real-time inventory tracking system",
+      "Automated service reminder notifications",
+      "Custom scheduling algorithm for optimal resource allocation"
+    ],
+    "caseStudy": {
+      "problem": "Workshop owners struggled with manual tracking of oil changes and inventory, leading to missed appointments and stock shortages.",
+      "approach": "Built a unified platform with automated reminders, real-time stock tracking, and intelligent scheduling.",
+      "outcome": "Reduced missed appointments by 80% and eliminated stockouts through predictive inventory management."
+    }
+  },
+  {
+    "id": "vinc-rms",
+    "title": "VINC RMS",
+    "description": "Feature-complete restaurant & retail management system. Orders, inventory, POS, reporting — all unified. Built at scale with a team, which means architecture decisions mattered and clean code wasn't optional.",
+    "techStack": ["React", ".NET / C#", "PostgreSQL", "Enterprise"],
+    "liveUrl": null,
+    "githubUrl": null,
+    "image": "/projects/vinc-rms.png",
+    "featured": true,
+    "category": "enterprise",
+    "year":"2025",
+    "highlights": [
+      "Unified POS system handling thousands of daily transactions",
+      "Real-time inventory sync across multiple locations",
+      "Comprehensive reporting dashboard with actionable insights"
+    ],
+    "caseStudy": {
+      "problem": "Restaurant chains needed a unified system to manage orders, inventory, and reporting across multiple locations.",
+      "approach": "Designed a modular enterprise architecture with clean separation of concerns, enabling team collaboration and maintainability.",
+      "outcome": "Successfully deployed across multiple restaurant locations, processing thousands of transactions daily with 99.9% uptime."
+    }
+  }
+]
